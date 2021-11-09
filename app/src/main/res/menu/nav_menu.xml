@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_homepage"
+
+            android:title="Home page" />
+
+        <item
+            android:id="@+id/nav_school_portals"
+
+            android:title="School Portals" />
+
+        <item
+            android:id="@+id/nav_aspirants_menu"
+
+            android:title="Aspirants menu" />
+
+        <item
+            android:id="@+id/nav_university_faculties"
+
+            android:title="University Faculties" />
+
+        <item
+            android:id="@+id/nav_library"
+
+            android:title="E-Library" />
+
+        <item
+            android:id="@+id/nav_staffs_webmail"
+
+            android:title="Staffs Webmail" />
+    </group>
+
+
+    <item android:title="Entrepreneurial Studies">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_register_skill_group"
+
+                    android:title="Register Skill Group" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="ADMINISTRATION">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Vice_chancellor"
+
+                    android:title="Vice Chancellor" />
+
+                <item
+                    android:id="@+id/nav_dvc_academics"
+
+                    android:title="DVC Academics" />
+
+                <item
+                    android:id="@+id/nav_registrar"
+
+                    android:title="Registrar" />
+
+
+                <item
+                    android:id="@+id/nav_ict_unit"
+
+                    android:title="ICT UNIT" />
+
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_help_support"
+
+                android:title="Help/Support" />
+
+            <item
+                android:id="@+id/nav_contact_us"
+
+                android:title="Contact us" />
+        </menu>
+    </item>
+</menu>
